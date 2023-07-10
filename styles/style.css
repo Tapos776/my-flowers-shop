@@ -1,5 +1,60 @@
 * {
     font-family: 'Bacasime Antique', serif;
+    font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
-    font-family: 'Spirax', cursive;
+
+}
+
+.container {
+    width: 1920px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.header {
+    width: 1920px;
+    height: 850px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-text{
+    margin-left: 240px;
+    margin-top: 197px;
+    margin-bottom: 147px;
+}
+
+.main-header-text {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    width: 708px;
+    height: 288px;
+}
+
+.deader-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 636px;
+    height: 90px;
+}
+
+.primary-button {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    border: none;
+}
+
+.header-picture {
+    background-image: url("../styles/image/pngwing\ 10.png");
+    width: 635px;
+    height: 800px;
+    margin-top: 50px;
+    margin-right: 240px;
 }
