@@ -35,7 +35,7 @@
 }
 
 .deader-description {
-    color: rgba(39, 39, 39, 0.60);
+    color: rgba(10, 10, 10, 0.6);
     font-size: 18px;
     font-weight: 400;
     width: 636px;
@@ -309,7 +309,7 @@
     font-size: 18px;
     font-weight: 400;
     width: 625px;
-    padding-left: 649;
+    padding-left: 649px;
 }
 
 small {
@@ -317,4 +317,112 @@ small {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+}
+
+
+/* External Section */
+
+.shadow{
+    width: 1440px;
+    height: 449px;
+    background-color: gray;
+    margin: 195px auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px 20px;
+    box-shadow: 0px 60px 70px 0px pink;
+}
+.left-left-up{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 191, 0.363);
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 50px 0px black;
+    background-image: url("../styles/image/pngwing\ 7.png");
+    background-size: 32%;
+
+
+}
+.left-right-up{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 196, 0, 0.205);
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 50px 0px black;
+}
+.left-shadow-one{
+    display: flex;
+    gap: 10px;
+}
+.left-left-down{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(0, 68, 255, 0.164);
+    margin-top: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 50px 0px black;
+
+}
+.left-right-down{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(0, 255, 42, 0.075);
+    margin-top: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 50px 0px black;
+    
+
+}
+.left-shadow-two{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+.right-left-up{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(10, 0, 0, 0.034);
+    margin-top: 20px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 40px 0px rgb(0, 0, 0);
+}
+.right-right-up{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(10, 0, 0, 0.144);
+    margin-top: 20px;
+    border-radius: 10%;
+}
+.right-shadow-one{
+    display: flex;
+    gap: 10px;
+}
+.right-left-down{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(10, 0, 0, 0.144);
+    margin-top: 10px;
+    border-radius: 10%;
+
+}
+.right-right-down{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(10, 0, 0, 0.034);
+    margin-top: 10px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 40px 0px rgb(0, 0, 0);
+    background-image: url("../styles/image/pngwing\ 7.png");
+    background-size: 32%;
+
+
+}
+.left-shadow-two{
+    display: flex;
+    gap: 10px;
 }
